@@ -1,0 +1,153 @@
+/usr/local/lib/python3.7/dist-packages/transformers/tokenization_utils_base.py:3516: FutureWarning:
+`prepare_seq2seq_batch` is deprecated and will be removed in version 5 of HuggingFace Transformers. Use the regular
+`__call__` method to prepare your inputs and the tokenizer under the `as_target_tokenizer` context manager to prepare
+your targets.
+Here is a short example:
+model_inputs = tokenizer(src_texts, ...)
+with tokenizer.as_target_tokenizer():
+    labels = tokenizer(tgt_texts, ...)
+model_inputs["labels"] = labels["input_ids"]
+See the documentation of your specific tokenizer for more details on the specific arguments to the tokenizer of choice.
+For a more complete example, see the implementation of `prepare_seq2seq_batch`.
+  warnings.warn(formatted_warning, FutureWarning)
+/usr/local/lib/python3.7/dist-packages/transformers/tokenization_utils_base.py:3516: FutureWarning:
+`prepare_seq2seq_batch` is deprecated and will be removed in version 5 of HuggingFace Transformers. Use the regular
+`__call__` method to prepare your inputs and the tokenizer under the `as_target_tokenizer` context manager to prepare
+your targets.
+Here is a short example:
+model_inputs = tokenizer(src_texts, ...)
+with tokenizer.as_target_tokenizer():
+    labels = tokenizer(tgt_texts, ...)
+model_inputs["labels"] = labels["input_ids"]
+See the documentation of your specific tokenizer for more details on the specific arguments to the tokenizer of choice.
+For a more complete example, see the implementation of `prepare_seq2seq_batch`.
+  warnings.warn(formatted_warning, FutureWarning)
+-----------------------------------
+Results:
+Scores for binary classification:
+F1 score: 0.0
+Accuracy Score: nan
+Scores for multilabel classification:
+F1 score: 0.3113968961795049
+Exact matches: 0.14492753623188406
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1580: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no true nor predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, "true nor predicted", "F-score is", len(true_sum))
+/usr/local/lib/python3.7/dist-packages/numpy/lib/function_base.py:380: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis)
+/usr/local/lib/python3.7/dist-packages/numpy/core/_methods.py:189: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/usr/local/lib/python3.7/dist-packages/transformers/tokenization_utils_base.py:3516: FutureWarning:
+`prepare_seq2seq_batch` is deprecated and will be removed in version 5 of HuggingFace Transformers. Use the regular
+`__call__` method to prepare your inputs and the tokenizer under the `as_target_tokenizer` context manager to prepare
+your targets.
+Here is a short example:
+model_inputs = tokenizer(src_texts, ...)
+with tokenizer.as_target_tokenizer():
+    labels = tokenizer(tgt_texts, ...)
+model_inputs["labels"] = labels["input_ids"]
+See the documentation of your specific tokenizer for more details on the specific arguments to the tokenizer of choice.
+For a more complete example, see the implementation of `prepare_seq2seq_batch`.
+  warnings.warn(formatted_warning, FutureWarning)
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1580: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no true nor predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, "true nor predicted", "F-score is", len(true_sum))
+/usr/local/lib/python3.7/dist-packages/numpy/lib/function_base.py:380: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis)
+/usr/local/lib/python3.7/dist-packages/numpy/core/_methods.py:189: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+-----------------------------------
+Results:
+Scores for binary classification:
+F1 score: 0.0
+Accuracy Score: nan
+Scores for multilabel classification:
+F1 score: 0.34711295146077753
+Exact matches: 0.21739130434782608
+['Loaded Language', 'Exaggeration/Minimisation', 'Loaded Language,Name calling/Labeling,Smears,Whataboutism', 'Loaded Language,Name calling/Labeling,Smears,Causal Oversimplification,Doubt', 'Loaded Language,Name calling/Labeling,Smears', 'Loaded Language', 'clean', 'Loaded Language,Name calling/Labeling', 'Loaded Language,Name calling/Labeling,Smears,Exaggeration/Minimisation,Slogans,Flag-waving', 'Loaded Language,Name calling/Labeling,Smears', 'Loaded Language', 'Loaded Language,Smears', 'Loaded Language,Name calling/Labeling,Smears,Flag-waving', 'Loaded Language,Smears', 'Loaded Language', 'Name calling/Labeling,Smears,Exaggeration/Minimisation', 'Loaded Language,Appeal to fear/prejudice', 'Loaded Language,Name calling/Labeling', 'Loaded Language,Name calling/Labeling,Smears', 'Loaded Language', 'Loaded Language', 'Loaded Language', 'clean', 'Loaded Language,Name calling/Labeling,Smears,Whataboutism', 'Loaded Language', 'Name calling/Labeling,Smears,Flag-waving', 'Loaded Language,Name calling/Labeling,Smears', 'Name calling/Labeling', 'Loaded Language', 'Loaded Language,Name calling/Labeling,Smears', 'Loaded Language,Smears', 'Loaded Language,Smears,Flag-waving', 'Loaded Language', 'Loaded Language,Name calling/Labeling,Smears', 'clean', 'Loaded Language', 'Loaded Language', 'Loaded Language,Name calling/Labeling', 'Smears', 'Loaded Language,Name calling/Labeling,Smears,Flag-waving', 'Loaded Language', 'Loaded Language,Name calling/Labeling', 'Loaded Language,Name calling/Labeling', 'Loaded Language', 'Loaded Language,Name calling/Labeling,Smears', 'Loaded Language', 'Loaded Language,Name calling/Labeling,Smears,Whataboutism,Doubt', 'Loaded Language,Name calling/Labeling', 'Loaded Language,Smears,Slogans', 'Loaded Language,Name calling/Labeling,Smears', 'Loaded Language,Name calling/Labeling,Smears,Thought-terminating cliché', 'Loaded Language,Smears,Exaggeration/Minimisation', 'Loaded Language', 'Loaded Language', 'clean', 'Loaded Language', 'Loaded Language,Name calling/Labeling', 'Loaded Language', 'Loaded Language,Name calling/Labeling', 'Doubt', 'Loaded Language,Name calling/Labeling', 'Loaded Language,Name calling/Labeling,Smears', 'Loaded Language,Name calling/Labeling,Smears', 'Loaded Language,Name calling/Labeling,Smears,Slogans', 'Loaded Language,Name calling/Labeling,Smears,Appeal to fear/prejudice,Doubt', 'Loaded Language,Smears,Causal Oversimplification,Slogans', 'Loaded Language,Smears,Glittering generalities (Virtue)', 'Loaded Language,Smears', 'Loaded Language']
+/usr/local/lib/python3.7/dist-packages/transformers/tokenization_utils_base.py:3516: FutureWarning:
+`prepare_seq2seq_batch` is deprecated and will be removed in version 5 of HuggingFace Transformers. Use the regular
+`__call__` method to prepare your inputs and the tokenizer under the `as_target_tokenizer` context manager to prepare
+your targets.
+Here is a short example:
+model_inputs = tokenizer(src_texts, ...)
+with tokenizer.as_target_tokenizer():
+    labels = tokenizer(tgt_texts, ...)
+model_inputs["labels"] = labels["input_ids"]
+See the documentation of your specific tokenizer for more details on the specific arguments to the tokenizer of choice.
+For a more complete example, see the implementation of `prepare_seq2seq_batch`.
+  warnings.warn(formatted_warning, FutureWarning)
+-----------------------------------
+Results:
+Scores for binary classification:
+F1 score: 0.0
+Accuracy Score: nan
+Scores for binary classification:
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1580: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no true nor predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, "true nor predicted", "F-score is", len(true_sum))
+/usr/local/lib/python3.7/dist-packages/numpy/lib/function_base.py:380: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis)
+/usr/local/lib/python3.7/dist-packages/numpy/core/_methods.py:189: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+/usr/local/lib/python3.7/dist-packages/transformers/tokenization_utils_base.py:3516: FutureWarning:
+`prepare_seq2seq_batch` is deprecated and will be removed in version 5 of HuggingFace Transformers. Use the regular
+`__call__` method to prepare your inputs and the tokenizer under the `as_target_tokenizer` context manager to prepare
+your targets.
+Here is a short example:
+model_inputs = tokenizer(src_texts, ...)
+with tokenizer.as_target_tokenizer():
+    labels = tokenizer(tgt_texts, ...)
+model_inputs["labels"] = labels["input_ids"]
+See the documentation of your specific tokenizer for more details on the specific arguments to the tokenizer of choice.
+For a more complete example, see the implementation of `prepare_seq2seq_batch`.
+  warnings.warn(formatted_warning, FutureWarning)
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1580: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no true nor predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, "true nor predicted", "F-score is", len(true_sum))
+/usr/local/lib/python3.7/dist-packages/numpy/lib/function_base.py:380: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis)
+/usr/local/lib/python3.7/dist-packages/numpy/core/_methods.py:189: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+-----------------------------------
+Results:
+Scores for binary classification:
+F1 score: 0.0
+Accuracy Score: nan
+Scores for multilabel classification:
+F1 score: 0.3016085363911451
+Exact matches: 0.13043478260869565
+/usr/local/lib/python3.7/dist-packages/transformers/tokenization_utils_base.py:3516: FutureWarning:
+`prepare_seq2seq_batch` is deprecated and will be removed in version 5 of HuggingFace Transformers. Use the regular
+`__call__` method to prepare your inputs and the tokenizer under the `as_target_tokenizer` context manager to prepare
+your targets.
+Here is a short example:
+model_inputs = tokenizer(src_texts, ...)
+with tokenizer.as_target_tokenizer():
+    labels = tokenizer(tgt_texts, ...)
+model_inputs["labels"] = labels["input_ids"]
+See the documentation of your specific tokenizer for more details on the specific arguments to the tokenizer of choice.
+For a more complete example, see the implementation of `prepare_seq2seq_batch`.
+  warnings.warn(formatted_warning, FutureWarning)
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1580: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no true nor predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, "true nor predicted", "F-score is", len(true_sum))
+/usr/local/lib/python3.7/dist-packages/numpy/lib/function_base.py:380: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis)
+/usr/local/lib/python3.7/dist-packages/numpy/core/_methods.py:189: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+-----------------------------------
+Results:
+Scores for binary classification:
+F1 score: 0.0
+Accuracy Score: nan
+Scores for multilabel classification:
+F1 score: 0.26299986124986124
+Exact matches: 0.065
+/usr/local/lib/python3.7/dist-packages/transformers/tokenization_utils_base.py:3516: FutureWarning:
+`prepare_seq2seq_batch` is deprecated and will be removed in version 5 of HuggingFace Transformers. Use the regular
+`__call__` method to prepare your inputs and the tokenizer under the `as_target_tokenizer` context manager to prepare
+your targets.
+Here is a short example:
+model_inputs = tokenizer(src_texts, ...)
+with tokenizer.as_target_tokenizer():
+    labels = tokenizer(tgt_texts, ...)
+model_inputs["labels"] = labels["input_ids"]
+See the documentation of your specific tokenizer for more details on the specific arguments to the tokenizer of choice.
+For a more complete example, see the implementation of `prepare_seq2seq_batch`.
+  warnings.warn(formatted_warning, FutureWarning)

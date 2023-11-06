@@ -1,0 +1,324 @@
+2022-05-12 04:10:25,384 INFO    MainThread:437 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2022-05-12 04:10:25,385 INFO    MainThread:437 [wandb_setup.py:_flush():76] Loading settings from /content/drive/MyDrive/685-NLP_Project/wandb/settings
+2022-05-12 04:10:25,385 INFO    MainThread:437 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-05-12 04:10:25,386 INFO    MainThread:437 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-05-12 04:10:25,386 INFO    MainThread:437 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2022-05-12 04:10:25,386 INFO    MainThread:437 [wandb_init.py:_log_setup():428] Logging user logs to /content/drive/MyDrive/685-NLP_Project/wandb/run-20220512_041025-1u3ao0xm/logs/debug.log
+2022-05-12 04:10:25,387 INFO    MainThread:437 [wandb_init.py:_log_setup():429] Logging internal logs to /content/drive/MyDrive/685-NLP_Project/wandb/run-20220512_041025-1u3ao0xm/logs/debug-internal.log
+2022-05-12 04:10:25,387 INFO    MainThread:437 [wandb_init.py:_jupyter_setup():378] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fb5e4b02450>
+2022-05-12 04:10:25,388 INFO    MainThread:437 [wandb_init.py:init():462] calling init triggers
+2022-05-12 04:10:25,388 INFO    MainThread:437 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {'adafactor_beta1': None, 'adafactor_clip_threshold': 1.0, 'adafactor_decay_rate': -0.8, 'adafactor_eps': (1e-30, 0.001), 'adafactor_relative_step': False, 'adafactor_scale_parameter': False, 'adafactor_warmup_init': False, 'adam_epsilon': 1e-08, 'best_model_dir': 'outputs/best_model', 'cache_dir': 'cache_dir/', 'config': {}, 'cosine_schedule_num_cycles': 0.5, 'custom_layer_parameters': [], 'custom_parameter_groups': [], 'dataloader_num_workers': 0, 'do_lower_case': False, 'dynamic_quantize': False, 'early_stopping_consider_epochs': False, 'early_stopping_delta': 0, 'early_stopping_metric': 'eval_loss', 'early_stopping_metric_minimize': True, 'early_stopping_patience': 3, 'encoding': None, 'eval_batch_size': 4, 'evaluate_during_training': True, 'evaluate_during_training_silent': True, 'evaluate_during_training_steps': 15000, 'evaluate_during_training_verbose': True, 'evaluate_each_epoch': True, 'fp16': False, 'gradient_accumulation_steps': 1, 'learning_rate': 0.001, 'local_rank': -1, 'logging_steps': 50, 'loss_type': None, 'loss_args': {}, 'manual_seed': None, 'max_grad_norm': 1.0, 'max_seq_length': 196, 'model_name': 't5-base', 'model_type': 't5', 'multiprocessing_chunksize': -1, 'n_gpu': 1, 'no_cache': False, 'no_save': False, 'not_saved_args': [], 'num_train_epochs': 20, 'optimizer': 'Adafactor', 'output_dir': 'outputs/', 'overwrite_output_dir': True, 'polynomial_decay_schedule_lr_end': 1e-07, 'polynomial_decay_schedule_power': 1.0, 'process_count': 1, 'quantized_model': False, 'reprocess_input_data': True, 'save_best_model': True, 'save_eval_checkpoints': False, 'save_model_every_epoch': False, 'save_optimizer_and_scheduler': True, 'save_steps': -1, 'scheduler': 'constant_schedule_with_warmup', 'silent': False, 'skip_special_tokens': True, 'tensorboard_dir': None, 'thread_count': None, 'tokenizer_name': None, 'tokenizer_type': None, 'train_batch_size': 10, 'train_custom_parameters_only': False, 'use_cached_eval_features': False, 'use_early_stopping': False, 'use_hf_datasets': False, 'use_multiprocessing': False, 'use_multiprocessing_for_evaluation': True, 'wandb_kwargs': {}, 'wandb_project': 'T5 mixed tasks - Binary, Multi-Label, Regression', 'warmup_ratio': 0.06, 'warmup_steps': 146, 'weight_decay': 0.0, 'model_class': 'T5Model', 'dataset_class': None, 'do_sample': False, 'early_stopping': True, 'evaluate_generated_text': False, 'length_penalty': 2.0, 'max_length': 20, 'max_steps': -1, 'num_beams': 1, 'num_return_sequences': 1, 'preprocess_inputs': True, 'repetition_penalty': 1.0, 'special_tokens_list': [], 'top_k': None, 'top_p': None, 'use_multiprocessed_decoding': True}
+2022-05-12 04:10:25,388 INFO    MainThread:437 [wandb_init.py:init():482] re-initializing run, found existing run on stack: 2pc664d3
+2022-05-12 04:10:25,391 INFO    MainThread:437 [wandb_run.py:_finish():1685] finishing run akhil-2709/T5 mixed tasks - Binary, Multi-Label, Regression/2pc664d3
+2022-05-12 04:10:25,391 INFO    MainThread:437 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 0
+2022-05-12 04:10:25,394 INFO    MainThread:437 [wandb_run.py:_restore():1839] restore
+2022-05-12 04:10:26,080 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 551
+  total_bytes: 551
+}
+
+2022-05-12 04:10:26,445 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 551
+  total_bytes: 551
+}
+
+2022-05-12 04:10:27,244 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 551
+  total_bytes: 13504
+}
+
+2022-05-12 04:10:27,348 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 551
+  total_bytes: 17059
+}
+
+2022-05-12 04:10:27,450 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 551
+  total_bytes: 17059
+}
+
+2022-05-12 04:10:27,552 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 17059
+  total_bytes: 17059
+}
+
+2022-05-12 04:10:27,655 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 17059
+  total_bytes: 17059
+}
+
+2022-05-12 04:10:27,757 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 17059
+  total_bytes: 17059
+}
+
+2022-05-12 04:10:27,859 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 17059
+  total_bytes: 17059
+}
+
+2022-05-12 04:10:27,962 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 17059
+  total_bytes: 17059
+}
+
+2022-05-12 04:10:28,064 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 17059
+  total_bytes: 17059
+}
+
+2022-05-12 04:10:28,888 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 17059
+  total_bytes: 17059
+}
+
+2022-05-12 04:10:29,742 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 17059
+  total_bytes: 17059
+}
+local_info {
+}
+
+2022-05-12 04:10:31,594 INFO    MainThread:437 [wandb_run.py:_footer_history_summary_info():3104] rendering history
+2022-05-12 04:10:31,595 INFO    MainThread:437 [wandb_run.py:_footer_history_summary_info():3136] rendering summary
+2022-05-12 04:10:31,605 INFO    MainThread:437 [wandb_run.py:_footer_sync_info():3060] logging synced files
+2022-05-12 04:10:31,615 INFO    MainThread:437 [wandb_init.py:init():515] starting backend
+2022-05-12 04:10:31,617 INFO    MainThread:437 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-05-12 04:10:31,621 INFO    MainThread:437 [backend.py:ensure_launched():217] starting backend process...
+2022-05-12 04:10:31,676 INFO    MainThread:437 [backend.py:ensure_launched():222] started backend process with pid: 1731
+2022-05-12 04:10:31,704 INFO    MainThread:437 [wandb_init.py:init():525] backend started and connected
+2022-05-12 04:10:31,753 INFO    MainThread:437 [wandb_run.py:_label_probe_notebook():1089] probe notebook
+2022-05-12 04:10:33,701 INFO    MainThread:437 [wandb_init.py:init():596] updated telemetry
+2022-05-12 04:10:33,705 INFO    MainThread:437 [wandb_init.py:init():628] communicating run to backend with 30 second timeout
+2022-05-12 04:10:34,035 INFO    MainThread:437 [wandb_run.py:_on_init():1924] communicating current version
+2022-05-12 04:10:34,076 INFO    MainThread:437 [wandb_run.py:_on_init():1928] got version response 
+2022-05-12 04:10:34,077 INFO    MainThread:437 [wandb_init.py:init():662] starting run threads in backend
+2022-05-12 04:10:38,427 INFO    MainThread:437 [wandb_run.py:_console_start():1898] atexit reg
+2022-05-12 04:10:38,431 INFO    MainThread:437 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.WRAP
+2022-05-12 04:10:38,431 INFO    MainThread:437 [wandb_run.py:_redirect():1808] Wrapping output streams.
+2022-05-12 04:10:38,442 INFO    MainThread:437 [wandb_run.py:_redirect():1832] Redirects installed.
+2022-05-12 04:10:38,442 INFO    MainThread:437 [wandb_init.py:init():688] run started, returning control to user process
+2022-05-12 04:10:38,443 INFO    MainThread:437 [wandb_watch.py:watch():47] Watching
+2022-05-12 04:50:31,220 INFO    MainThread:437 [wandb_init.py:_pause_backend():341] pausing backend
+2022-05-12 04:50:31,223 INFO    MainThread:437 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-05-12 04:53:06,992 INFO    MainThread:437 [wandb_init.py:_resume_backend():350] resuming backend
+2022-05-12 04:53:15,449 INFO    MainThread:437 [wandb_init.py:_pause_backend():341] pausing backend
+2022-05-12 04:53:15,449 INFO    MainThread:437 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-05-12 04:53:41,001 INFO    MainThread:437 [wandb_init.py:_resume_backend():350] resuming backend
+2022-05-12 04:53:41,003 INFO    MainThread:437 [wandb_init.py:_pause_backend():341] pausing backend
+2022-05-12 04:53:41,003 INFO    MainThread:437 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-05-12 04:54:15,179 INFO    MainThread:437 [wandb_init.py:_resume_backend():350] resuming backend
+2022-05-12 04:54:27,108 INFO    MainThread:437 [wandb_init.py:_pause_backend():341] pausing backend
+2022-05-12 04:54:27,108 INFO    MainThread:437 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-05-12 04:54:36,183 INFO    MainThread:437 [wandb_init.py:_resume_backend():350] resuming backend
+2022-05-12 04:54:36,190 INFO    MainThread:437 [wandb_init.py:_pause_backend():341] pausing backend
+2022-05-12 04:54:36,193 INFO    MainThread:437 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-05-12 04:57:16,373 INFO    MainThread:437 [wandb_init.py:_resume_backend():350] resuming backend
+2022-05-12 04:57:33,428 INFO    MainThread:437 [wandb_init.py:_pause_backend():341] pausing backend
+2022-05-12 04:57:33,428 INFO    MainThread:437 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-05-12 04:58:24,299 INFO    MainThread:437 [wandb_init.py:_resume_backend():350] resuming backend
+2022-05-12 04:58:24,345 INFO    MainThread:437 [wandb_init.py:_pause_backend():341] pausing backend
+2022-05-12 04:58:24,345 INFO    MainThread:437 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-05-12 04:58:41,481 INFO    MainThread:437 [wandb_init.py:_resume_backend():350] resuming backend
+2022-05-12 04:58:51,826 INFO    MainThread:437 [wandb_init.py:_pause_backend():341] pausing backend
+2022-05-12 04:58:51,826 INFO    MainThread:437 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-05-12 05:31:48,254 INFO    MainThread:437 [wandb_init.py:_resume_backend():350] resuming backend
+2022-05-12 05:31:48,302 INFO    MainThread:437 [wandb_init.py:_pause_backend():341] pausing backend
+2022-05-12 05:31:48,303 INFO    MainThread:437 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-05-12 05:35:56,078 INFO    MainThread:437 [wandb_init.py:_resume_backend():350] resuming backend
+2022-05-12 05:36:13,095 INFO    MainThread:437 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2022-05-12 05:36:13,096 INFO    MainThread:437 [wandb_setup.py:_flush():76] Loading settings from /content/drive/MyDrive/685-NLP_Project/wandb/settings
+2022-05-12 05:36:13,096 INFO    MainThread:437 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-05-12 05:36:13,096 INFO    MainThread:437 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-05-12 05:36:13,096 INFO    MainThread:437 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2022-05-12 05:36:13,097 INFO    MainThread:437 [wandb_init.py:_log_setup():428] Logging user logs to /content/drive/MyDrive/685-NLP_Project/wandb/run-20220512_053613-yg9gzi65/logs/debug.log
+2022-05-12 05:36:13,097 INFO    MainThread:437 [wandb_init.py:_log_setup():429] Logging internal logs to /content/drive/MyDrive/685-NLP_Project/wandb/run-20220512_053613-yg9gzi65/logs/debug-internal.log
+2022-05-12 05:36:13,098 INFO    MainThread:437 [wandb_init.py:init():462] calling init triggers
+2022-05-12 05:36:13,098 INFO    MainThread:437 [wandb_init.py:init():466] wandb.init called with sweep_config: {}
+config: {'adafactor_beta1': None, 'adafactor_clip_threshold': 1.0, 'adafactor_decay_rate': -0.8, 'adafactor_eps': (1e-30, 0.001), 'adafactor_relative_step': False, 'adafactor_scale_parameter': False, 'adafactor_warmup_init': False, 'adam_epsilon': 1e-08, 'best_model_dir': 'outputs/best_model', 'cache_dir': 'cache_dir/', 'config': {}, 'cosine_schedule_num_cycles': 0.5, 'custom_layer_parameters': [], 'custom_parameter_groups': [], 'dataloader_num_workers': 0, 'do_lower_case': False, 'dynamic_quantize': False, 'early_stopping_consider_epochs': False, 'early_stopping_delta': 0, 'early_stopping_metric': 'eval_loss', 'early_stopping_metric_minimize': True, 'early_stopping_patience': 3, 'encoding': None, 'eval_batch_size': 4, 'evaluate_during_training': True, 'evaluate_during_training_silent': True, 'evaluate_during_training_steps': 15000, 'evaluate_during_training_verbose': True, 'evaluate_each_epoch': True, 'fp16': False, 'gradient_accumulation_steps': 1, 'learning_rate': 0.001, 'local_rank': -1, 'logging_steps': 50, 'loss_type': None, 'loss_args': {}, 'manual_seed': None, 'max_grad_norm': 1.0, 'max_seq_length': 196, 'model_name': 't5-base', 'model_type': 't5', 'multiprocessing_chunksize': -1, 'n_gpu': 1, 'no_cache': False, 'no_save': False, 'not_saved_args': [], 'num_train_epochs': 10, 'optimizer': 'Adafactor', 'output_dir': 'outputs/', 'overwrite_output_dir': True, 'polynomial_decay_schedule_lr_end': 1e-07, 'polynomial_decay_schedule_power': 1.0, 'process_count': 1, 'quantized_model': False, 'reprocess_input_data': True, 'save_best_model': True, 'save_eval_checkpoints': False, 'save_model_every_epoch': False, 'save_optimizer_and_scheduler': True, 'save_steps': -1, 'scheduler': 'constant_schedule_with_warmup', 'silent': False, 'skip_special_tokens': True, 'tensorboard_dir': None, 'thread_count': None, 'tokenizer_name': None, 'tokenizer_type': None, 'train_batch_size': 10, 'train_custom_parameters_only': False, 'use_cached_eval_features': False, 'use_early_stopping': False, 'use_hf_datasets': False, 'use_multiprocessing': False, 'use_multiprocessing_for_evaluation': True, 'wandb_kwargs': {}, 'wandb_project': 'T5 mixed tasks - Binary, Multi-Label, Regression', 'warmup_ratio': 0.06, 'warmup_steps': 110, 'weight_decay': 0.0, 'model_class': 'T5Model', 'dataset_class': None, 'do_sample': False, 'early_stopping': True, 'evaluate_generated_text': False, 'length_penalty': 2.0, 'max_length': 20, 'max_steps': -1, 'num_beams': 1, 'num_return_sequences': 1, 'preprocess_inputs': True, 'repetition_penalty': 1.0, 'special_tokens_list': [], 'top_k': None, 'top_p': None, 'use_multiprocessed_decoding': True}
+2022-05-12 05:36:13,098 INFO    MainThread:437 [wandb_init.py:init():482] re-initializing run, found existing run on stack: 1u3ao0xm
+2022-05-12 05:36:13,100 INFO    MainThread:437 [wandb_run.py:_finish():1685] finishing run akhil-2709/T5 mixed tasks - Binary, Multi-Label, Regression/1u3ao0xm
+2022-05-12 05:36:13,104 INFO    MainThread:437 [jupyter.py:save_history():435] not saving jupyter history
+2022-05-12 05:36:13,104 INFO    MainThread:437 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-05-12 05:36:13,104 INFO    MainThread:437 [wandb_init.py:_jupyter_teardown():360] cleaning up jupyter logic
+2022-05-12 05:36:13,105 INFO    MainThread:437 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 0
+2022-05-12 05:36:13,107 INFO    MainThread:437 [wandb_run.py:_restore():1839] restore
+2022-05-12 05:36:13,851 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 551
+  total_bytes: 551
+}
+
+2022-05-12 05:36:14,293 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 551
+  total_bytes: 551
+}
+
+2022-05-12 05:36:14,451 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 551
+  total_bytes: 535849
+}
+
+2022-05-12 05:36:14,556 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 551
+  total_bytes: 542957
+}
+
+2022-05-12 05:36:14,658 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 551
+  total_bytes: 542957
+}
+
+2022-05-12 05:36:14,760 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 528201
+  total_bytes: 542957
+}
+
+2022-05-12 05:36:14,864 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 542957
+  total_bytes: 542957
+}
+
+2022-05-12 05:36:14,967 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 542957
+  total_bytes: 542957
+}
+
+2022-05-12 05:36:15,069 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 542957
+  total_bytes: 542957
+}
+
+2022-05-12 05:36:15,171 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 542957
+  total_bytes: 542957
+}
+
+2022-05-12 05:36:15,273 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 542957
+  total_bytes: 542957
+}
+
+2022-05-12 05:36:15,374 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 542957
+  total_bytes: 542957
+}
+
+2022-05-12 05:36:15,476 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 542957
+  total_bytes: 542957
+}
+
+2022-05-12 05:36:15,578 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 542957
+  total_bytes: 542957
+}
+
+2022-05-12 05:36:17,537 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 542957
+  total_bytes: 542957
+}
+
+2022-05-12 05:36:18,072 INFO    MainThread:437 [wandb_run.py:_on_finish():1996] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 542957
+  total_bytes: 542957
+}
+local_info {
+}
+
+2022-05-12 05:36:19,682 INFO    MainThread:437 [wandb_run.py:_footer_history_summary_info():3104] rendering history
+2022-05-12 05:36:19,693 INFO    MainThread:437 [wandb_run.py:_footer_history_summary_info():3136] rendering summary
+2022-05-12 05:36:19,706 INFO    MainThread:437 [wandb_run.py:_footer_sync_info():3060] logging synced files

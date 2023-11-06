@@ -1,0 +1,204 @@
+	prefix	input_text	target_text
+76	multilabel classification	Guess who's waiting for someone else to do all the work lol  Bernie 	clean
+356	multilabel classification	JOE BIDEN PREPARING FOR THE DEBATE WITH TRUMP  	clean
+581	multilabel classification	I take a shit every morning at 8 AM.  That's good. So what's the problem?  I wake up at 9 AM.  	Loaded Language
+582	multilabel classification	"Sen. Mazie Hirono, D-Hawaii, the dumbest person in the U.S. Capitol*, questions Judge Amy Coney Barrett, the smartest person, during Confirmation hearings this week.  * Normally, the ""dumbest"" designation goes to Rep. Maxine Waters, D-Calif., but Ms. Waters was not present in the building. "	Loaded Language,Name calling/Labeling,Smears,Exaggeration/Minimisation,Glittering generalities (Virtue)
+11	multilabel classification	THOSE LIBERALS HATE ME  IT'S BECAUSE I'M BLACK ISN'T IT ? 	Loaded Language,Name calling/Labeling,Causal Oversimplification
+300	multilabel classification	"IN MY DAY YOU WERE EITHER PRO-AMERICA OR A COMMIE  YOU CAN CALL YOURSELF ""LIBERAL,"" ""PROGRESSIVE"" OR ""SOCIALIST"" BUT YOU'RE STILL NOTHING MORE THAN A ROTTEN COMMIE! "	Loaded Language,Name calling/Labeling,Smears,Black-and-white Fallacy/Dictatorship
+562	multilabel classification	"""Those who believe without reason cannot be convinced by reason."" -James Randi "	Appeal to authority
+431	multilabel classification	When you get ice cream for going a whole day without saying something stupid	Loaded Language
+363	multilabel classification	Is this even slightly appropriate in a public school? Let's talk, because this has become a pervasive issue affecting our kids...  BLACK LIVES MATTER 	Loaded Language,Name calling/Labeling,Slogans,Doubt
+41	multilabel classification	MUST BE AN ELECTION COMING, DEMOCRATS ARE VISITING BLACK COMMUNITIES AGAIN.  	Smears
+425	multilabel classification	SHE AIN'T BLACK.	clean
+410	multilabel classification	IM NOT JUDGING...  I'M JUST SHOWING YOU PICTURES OF JACOB BLAKE	clean
+677	multilabel classification	For all those posting pictures of Kyle Rittenhouse cleaning graffiti, here's a picture of Ted Bundy doing the dishes.  The ability to clean doesn't exclude someone from being a murderer.	Loaded Language,Name calling/Labeling
+40	multilabel classification	"""If you tell a lie big enough and keep repeating it, people will eventually come to believe it."" - Joseph Goebbels, Nazi Propaganda Minister  The New York Times  CNN  BBC TIME MSNBC NBC Los Angeles Times Fox NEWS channel npr abc CBS NEWS The Washington Post USA TODAY "	Name calling/Labeling
+133	multilabel classification	The Corrupt Bunch 	Loaded Language,Name calling/Labeling
+285	multilabel classification	WHAT DOES A GOVERNMENT DO ONCE IT HAS DISARMED ITS CITIZENS? WHATEVER IT WANTS.	Appeal to fear/prejudice
+122	multilabel classification	Anti-vaxxers say The Brady Bunch measles episode is proof that measles was no big deal.  If you have to get sick, sure can't beat the measles  By that logic, Hogan's Heroes is proof WW2 POW camps were all just shits and giggles.	Loaded Language,Exaggeration/Minimisation,Misrepresentation of Someone's Position (Straw Man)
+455	multilabel classification	WHEN WILL WE TAKE DOWN THESE MONUMENTS OF SLAVERY 	Loaded Language,Name calling/Labeling
+185	multilabel classification	Find the differences in these two images 	clean
+296	multilabel classification	• He told us to protect our borders • He told us to bring manufacturing back home • He told us to be less dependent on other countries • He warned us about China • Democrats fought him every step of the way! 	Smears,Flag-waving
+378	multilabel classification	GOOD JOB RAPIST  VISITS JACOBS BUT NOT THE TWO OFFICERS THAT WERE SHOT  	Loaded Language,Name calling/Labeling,Smears,Whataboutism
+577	multilabel classification	For those times when you just can't make it to your reiki session, but you wanted the same results.  	clean
+195	multilabel classification	Let's give all police officers 30 days paid vacation to be taken simultaneously, SO idiots like those pictured below can get a taste of what it'd be like to have no cops on duty.  DEFUND THE POLICE  	Loaded Language,Name calling/Labeling,Appeal to fear/prejudice,Slogans
+1	multilabel classification	This is not an accident!	clean
+591	multilabel classification	in order to stay out of Facebook jail I will be posting memes in code  Is a... 	Loaded Language,Name calling/Labeling
+419	multilabel classification	Brilliant Trump Puts Himself On All Postage Stamps, Forcing Democrats To Push For Abolishing USPS  THE TRUMP-STAMP  GREATEST PRESIDENT EVER	Name calling/Labeling,Smears,Exaggeration/Minimisation,Slogans,Glittering generalities (Virtue)
+575	multilabel classification	Ate 5000 calories per day for a month.  Thinks the restaurant is the problem. 	clean
+20	multilabel classification	I PROMISE.  I PROMISE.  I PROMISE.  I DELIVER. 	Repetition
+573	multilabel classification	While well-fed westerners campaign against crops genetically modified to be higher yielding, and drought resistant  Those with no voice continue to die in drought induced famines.  	Loaded Language,Name calling/Labeling,Whataboutism
+265	multilabel classification	"""NEVER TAKE A KNEE! ONLY TO GOD!""  - PRESIDENT TRUMP"	Slogans,Appeal to authority
+512	multilabel classification	When I walk into a southern grocery store with my mask on	clean
+353	multilabel classification	CA NY CA NY CA NY  WHY WE HAVE THE ELECTORAL COLLEGE 	clean
+437	multilabel classification	ON A SCALE OF 1 TO 1984  HOW FREE DO YOU FEEL WHILE WEARING A MUZZLE IN A GROCERY STORE, WHILE FOLLOWING ARROWS ON THE FLOOR? 	Loaded Language,Appeal to fear/prejudice
+238	multilabel classification	TRUMP DID IT?  CNN	clean
+97	multilabel classification	The Axis of Evil of the United States of America 	Loaded Language,Name calling/Labeling
+125	multilabel classification	Don't trust BigPharma! Read the insert!  The inserts are written by BigPharma	clean
+28	multilabel classification	COVID-19 is everywhere but countries with heads of state managing the crisis better seem to have something in common..  GERMANY  NEW ZEALAND  BELGIUM  FINLAND  ICELAND  DENMARK 	clean
+47	multilabel classification	If y'all liberals want to tear down monuments to slavery & racism, I have just the monument for you!  DEMOCRATIC NATIONAL HEADQUARTERS 430 SOUTH CAPITOL STREET 	Loaded Language,Smears
+219	multilabel classification	The picture they show you when you have an erection lasting more than 4 hours 	Loaded Language
+37	multilabel classification	HOW DARE YOU NOT VOTERINO FOR HECKIN' BERNERINO?! DON'T YOU KNOW THAT A VOTE FOR BIDEN IS A VOTE FOR FASCISM? THE WORLD IS LITERALLY DYING AND BERNIE-SAMA IS THE ONLY ONE WHO CAN SAVE IT!  haha hey its the Obama guy  RIDIN WITH BIDEN **2020**	Name calling/Labeling,Smears,Appeal to fear/prejudice,Black-and-white Fallacy/Dictatorship,Exaggeration/Minimisation,Slogans,Thought-terminating cliché,Reductio ad hitlerum
+426	multilabel classification	BUT JOE SAID HE WOULD PICK A BLACK WOMAN	Name calling/Labeling
+261	multilabel classification	He knew he was entering a den of vipers. And he went in anyway. For us.  Are You Thankful for Trump?	Name calling/Labeling,Glittering generalities (Virtue)
+630	multilabel classification	That's a nice business you got there.  Be a shame if someone...  CLOSED IT	Loaded Language,Name calling/Labeling
+104	multilabel classification	It's not that the Majority are silent  It's that the media are silent about the Majority.	Smears,Slogans
+388	multilabel classification	BEST TRADE EVER! 	Exaggeration/Minimisation
+432	multilabel classification	DEMOCRAT 2020 PLATFORM IN A SINGLE PHOTO	clean
+33	multilabel classification	THE TWO BIGGEST THREATS TO AMERICA  THE WORST SENATE LEADER EVER AND THE MOST CORRUPT PRESIDENT EVER 	Loaded Language,Name calling/Labeling,Appeal to fear/prejudice,Exaggeration/Minimisation,Flag-waving
+663	multilabel classification	A microchipping syringe  A vaccine syringe  ANY QUESTIONS?	clean
+482	multilabel classification	A FRIENDLY REMINDER...  FERGUSON  BALTIMORE  MILWAUKEE  CHARLOTTE  IN CASE Y'ALL FORGOT ! 	clean
+599	multilabel classification	During Halloween some states require child sex offenders put signs up... stay informed  BIDEN FOR PRESIDENT 	Loaded Language,Slogans
+325	multilabel classification	IF YOU DON'T VOTE FOR ME, I AINT BLACK. 	clean
+342	multilabel classification	ANTI-TRUMPERS JUNE 2019 TRUMP IS WEAK FOR NOT STARTING A WAR WITH IRAN  ANTI-TRUMPERS JANUARY 2020 TRUMP IS TRYING TO START A WAR WITH IRAN  	Loaded Language,Name calling/Labeling,Whataboutism
+322	multilabel classification	UNARMED VICITM  ARMED VICTIM  ANY QUESTIONS? 	Loaded Language,Name calling/Labeling
+348	multilabel classification	SAYING YOU ARE A PATRIOT IS NOT ENOUGH  YOU HAVE TO BE ONE  	Loaded Language
+385	multilabel classification	NEVER FORGET WHAT THEY DID TO THIS MAN. WE OWE THE LEFT NOTHING. FILL THE SEAT. 	Smears,Slogans
+539	multilabel classification	"Where did the ""ancient"" concept of Qi and meridians that your acupuncture practitioner speaks of originate?  From this French author in 1939.  Nothing ancient or Chinese about it.  "	Doubt
+163	multilabel classification	Venezuela's Communist Dictator Nicolas Maduro  BLM Founder Opal Tometi	Loaded Language,Name calling/Labeling
+326	multilabel classification	ON A POSITIVE NOTE  NOBODY HAS DIED OF 'OLD AGE' SINCE MARCH  	Loaded Language,Doubt
+294	multilabel classification	A TRUE NEW YORK CITY NITWIT  He screws up an entire state in over a 9+ year period and then has the nerve to say that the President is not doing enough. 	Loaded Language,Name calling/Labeling,Smears,Whataboutism
+191	multilabel classification	Hmm.  This bridge is only 99.997% safe. I think I'll swim.  #AntiVaxxerLogic	Name calling/Labeling,Smears
+242	multilabel classification	I HEARD Y'ALL DON'T WANT ME MODERATING ANYMORE. IS THAT TRUE?	Doubt
+251	multilabel classification	"WHEN YOU SEE THE GUY WHO SAID “YOU'LL NEVER BE PRESIDENT"" AT YOUR INAUGURATION"	clean
+0	multilabel classification	THERE ARE ONLY TWO GENDERS  FEMALE   MALE 	Black-and-white Fallacy/Dictatorship
+13	multilabel classification	A society that keeps cures a secret, in an effort to sell medications for huge profits, is not a civilised society; it is a mental institution ruled over by phsychopaths. 	Loaded Language,Name calling/Labeling
+129	multilabel classification	The Democrat ticket is Biden-Harris?  Stop, you're gonna make me pee! 	Smears,Exaggeration/Minimisation,Thought-terminating cliché
+282	multilabel classification	"House Majority Whip James Clyburn, gave it away with one comment.  CoVid 19 ""is a tremendous opportunity to restructure things to fit our vision,"" "	Name calling/Labeling,Smears
+208	multilabel classification	THE FIRST PRESIDENT TO EVER FIGHT CHILD SEX TRAFFICKING  IF THAT DOESN'T EARN YOUR VOTE, NOTHING WILL	Loaded Language,Exaggeration/Minimisation,Thought-terminating cliché,Glittering generalities (Virtue)
+134	multilabel classification	This is how thousands were murdered by our government.  Tied to chairs.  Denied family visits.  Alone. Abandoned.  What should we do to the government? 	Loaded Language,Smears,Appeal to fear/prejudice
+123	multilabel classification	FIRST PHOTO OF THE RUSSIAN VACCINE  SMIRNOFF VODKA 	Name calling/Labeling
+956	binary classification	What if I told you That you are about to take an arrow to the knees memecenter.com Memetenter	1
+999	binary classification	"THE ""TOLERANT” LEFT TURNING POINT USA AGREE WITH THEM OR YOU'RE A RACIST  SEXIST  XENOPHOBIC BIGOT Pretty Much..."	1
+1199	binary classification	I've Noticed the Squirrels are Beginning to Gather Nuts For the Winter... A couple Of my friends Are missing. Are You in a safe place?	1
+1037	binary classification	IT'S WEIRD BUT I LIKE IT	1
+499	binary classification	"Democrats love saying ""orange man"" so much  they nominated a vegetable!! "	0
+816	binary classification	Keidy @keildyyH whenever I park illegally. I always give myself a fake parking ticket before somebody else does it for me	1
+596	binary classification	Hunter Biden celebrating his dad's victory  Peanutbutter and crack sandwich. 	0
+989	binary classification	GIVE THAT MAN A GIRLFRIEND	1
+442	binary classification	LOOTING  An act performed in urban communities to honor a recently killed person that nobody knew but you tell people he was like a son  Proper looting etiquette dictates the underwear be fully visible at all times    	0
+735	binary classification	"This is Bill. Bill started to work out. Bill wants to be muscularand and carved. But Bill doesn't upload selfies of him working out and certainly doesn't write shit like no pain no gain"". Bill is smart. Be like Bill"	1
+605	binary classification	I'd crawl blindfolded and naked over a mile of broken glass slathered with germs to vote for Trump and every other Republican on the ballot in 2020. 	0
+1318	binary classification	NO CHINA ON PATIO THAT seems racist.	1
+424	binary classification	White lives Matter  Justice for Cannon  Shot in his head riding his bike by a black man just for being white!	0
+627	binary classification	"""AND I SAID, IF YOU DON'T FIND MORE VOTES, WE'RE NOT GONNA WIN THIS ELECTION. WELL, SON OF A BITCH, WE FOUND MORE VOTES.""  "	0
+582	binary classification	I take a shit every morning at 8 AM.  That's good. So what's the problem?  I wake up at 9 AM.  	0
+1262	binary classification	This is Bill. Bill is waiting in his car for his girlfriend. Bill doesn't get angry. because he knows his girlfriend is getting pretty just for him. Bill loves her. Be like Bill.	1
+1289	binary classification	White House staff's reaction to Trump's first visit looks like when Voldemort showed up after the battle of Hogwarts	1
+128	binary classification	ANTIVAXXERS LIKE TO SAY DISEASES WERE ENDED BY IMPROVED SANITATION. LETS TAKE A LOOK AT SOME PLACES WHERE DISEASES HAVE BEEN ERADICATED.  THIS IS A LOW-INCOME AREA OF MUMBAI, INDIA, WHERE NO ONE GETS POLIO ANYMORE EVER.  ISN'T IT AMAZING WHAT SANITATION CAN DO?	0
+503	binary classification	"Mexican word of the Day: Biden  ""Help! This gringo is Biden my ear!"" "	0
+672	binary classification	THE MORAL OF THE STORY IS, HE LIED TO YOU FOR MONTHS AND ENCOURAGED YOU TO LIVE RECKLESSLY DURING A PANDEMIC, AND WHEN IT GOT TO HIM HE RECEIVED EVERY TOP TIER TREATMENT AND MEDICATION TO ENSURE HIS SURVIVAL WHILE YOUR FRIENDS AND FAMILY DIED ALONE.  REMEMBER THAT ON NOV 3RD.	0
+1054	binary classification	NEW TECHNOLOGY IDONT GET IT SONNY! Temegenerator.net	1
+554	binary classification	"The only thing ""essential"" oils are essential for is the seller's income  Aromatherapy has no proven medical benefits  "	0
+570	binary classification	"""If chemtrails aren't real, explain why they appear to turn on and off all the time?""  ""The same reason why you see your breath on a cold day, but not a hot day, dummy.""  "	0
+413	binary classification	The Brain Dead Bunch	0
+551	binary classification	In case you fell for it...  Israeli scientists have NOT found a cure for all cancers. It was just another case of bad science reporting by a credulous media.  	0
+272	binary classification	WHEN DID AMERICA STOP BEING GREAT ?  WHEN THIS CLOWN WAS ELECTED TWICE !	0
+146	binary classification	If Amy Coney Barrett doesn't have the common sense to avoid bringing her 7 kids to a maskless, non socially distanced event then she doesn't have good enough judgment sit on the Supreme Court. Full stop. 	0
+553	binary classification	While there's no scientific consensus that acupuncture actually works, you can reasonably argue that it can have a placebo effect on humans.  Animals however do not respond to placebos, so all veterinary acupuncturists are doing is stabbing your pets for money.  Animal cruelty plain and simple. 	0
+1181	binary classification	The best things in life are free. Hugs Smiles Hate crimes Kisses Cross dressing Death GO Beating hookers Laughter Child Slavery	1
+1205	binary classification	This is Bill. Bill's friends are getting engaged or married. Bill is single. Bill just doesn't give a shit. Bill is smart. Be like Bill.	1
+1245	binary classification	Oh Wait! I Forgot to Say 9/11! Pundit kitchen.com	1
+984	binary classification	First images of the new Captain Picard Star Trek series	1
+245	binary classification	WORST MODERATOR EVER!	0
+386	binary classification	NEVER FORGET WHAT THEY DID TO THIS MAN. WE OWE THE LEFT NOTHING. FILL THE SEAT. 	0
+7	binary classification	Adolf Hitler • Believed state power would fix Germany • Proposed gun control • Promised a political revolution • Called himself socialist • Blamed Jews for Germany's problems • Wanted a heavily regulated economy  Bernie Sanders • Believes state power will fix America • Proposes gun control • Promises a political revolution • Calls himself socialist • Blames the rich for America's problems • Wants a heavily regulated economy	0
+825	binary classification	I'M A CHERRY YOUR ARGUMENT IS INVALID Pundit kitchen.com	1
+448	binary classification	WATCH THE MEDIA BURY THIS STORY Summer Taylor, a Non-Binary BLM activist was protesting on the freeway when she was fatally hit by this man  SUMMER TAYLOR  DAWIT KELETE  	0
+465	binary classification	It's a garage door rope and been proven that it's been there for years.  Obviously it's a noose and put there because I'm black.  	0
+164	binary classification	Venezuela's Communist Dictator Nicolas Maduro  BLM Founder Opal Tometi	0
+1155	binary classification	Me Right Before Iftar	1
+16	binary classification	TRUMP CURES CORONAVIRUS!  CURING CORONA VIRUS IS RACIST  WE HAVE THE RIGHT TO DIE FROM OUR CORONAVIRUS  DEMOCRATS ARE OUTRAGED! 	0
+1304	binary classification	THIS GUY NEVER RUNS OUT OF ARROWS	1
+832	binary classification	My boyfriend isn't allowed to have candles on his birthday cake. INSTAGRAM@OLIVIABOSSCHICK Wtf are you wishing for? All your dreams came true when you met me.	1
+345	binary classification	CONTROL EDUCATION, CONTROL THEIR MINDS.  CONTROL HEALTHCARE, CONTROL THEIR BODIES.  CONTROL THE MEDIA, CONTROL THEIR THOUGHTS.  CONTROL THE VOTES, CONTROL THEIR LIVES.  THOSE WE CAN'T CONTROL WE MUST DESTROY.  	0
+882	binary classification	"IT'S JUST A PRANK  BRO"" - ADOLF Hitler 1945"	1
+936	binary classification	2 mysterious people live in my house. Somebody & Nobody. Somebody did it and Nobody knows who.	1
+1032	binary classification	SEXIST. VIA 9GAG.COM THIS LADY WHO CALLED ME OUT FOR MY HISTORY OF MISOGYNISTIC COMMENTS MUST BE ON HER PERIOD	1
+432	binary classification	When you get ice cream for going a whole day without saying something stupid	0
+117	binary classification	The real reason you're not paying attention to the #childrenslivesmatter or #endchildtrafficking movement is because the mainstream media haven't told you to.	0
+569	binary classification	"When someone ignores your peer reviewed citations and tells you to ""do ur research""  "	0
+478	binary classification	I can't breath but don't worry, I'm white. 	0
+1009	binary classification	DONT FORCE YOUR CHILD INTO A PROFESSION AGAINST HIS INTERESTS REMEMBER THIS EXAMPLE	1
+486	binary classification	So, we can all gather to do this..  BUT NOT TO DO THIS??? 	0
+1003	binary classification	Just avoid saying the n word and don't reference Richard Spencer too much and don't Jew hate just cause all the time 12:33 PM	1
+723	binary classification	El Arroyo Gustin MILLENIALS. WALKING AROUND LIKE THEY RENT THE PLACE	1
+601	binary classification	MEET THE BIDEN BOYS  SNIFF &SNORT 	0
+193	binary classification	THEY TOLD ME I COULD BE ANYTHING I WANTED  SO I BECAME THE SAVIOR OF WESTERN CIVILIZATION	0
+1082	binary classification	I don't care if I'm 5 years old or 55 years old. I will always love watching TOM AND JERRY	1
+1159	binary classification	IF I CANT FINISH THIS GAME OF SUDOKU 3 9 I WILL DECLARE WAR ON SOUTH KOREA We Know Memes	1
+831	binary classification	Being called cute all the time But you're still single...	1
+226	binary classification	DEFAMED BY CNN. SUES CNN. WINS.  THEN ROASTS CNN ...ON CNN	0
+1160	binary classification	NEVER TELL ANYONE OUTSIDE THE FAMILY WHAT YOU ARE THINKING AGAIN. Don Corleone THE GODFATHER	1
+1072	binary classification	SOME YEARS AFTER GLOBAL WARMING ROSE?	1
+1049	binary classification	WENT TO BROTHER'S COLLEGE GRADUATION VIA 9GAG.COM THE GIRLS THERE THINK I'M HOT	1
+1254	binary classification	WORLD LEADER 10-YEAR CHALLENGE 2009 2019 Even world leader's are participating in the 10-year challenge!	1
+793	binary classification	EXAMS ARE JUST LIKE LEONARDO DICAPRIO THEY MAKE YOU GO CRAZY memegenerator.net	1
+1178	binary classification	I DON'T GET LUCKY. I MADE MY OWN LUCK. MILLIONAIRESTHINGS.COM	1
+991	binary classification	PLEASE KILL ME	1
+1214	binary classification	I'm not great at advice  can I interest you in a sarcastic comment? -Chandler Bing Whisper	1
+1314	binary classification	IN SOVIET RUSSIA PRESIDENT ASSASSINATE YOU	1
+75	binary classification	DEMOCRAT PARTY  NBC  CBS  MSNBC  CNN 	0
+532	binary classification	The radiation emitted from this lamp is far more energetic than 5G signals.  Neither are harmful to your health.  Except when you use them to read woo on the internet.  	0
+1206	binary classification	LOL TOO SLOW MAYBE NEXT TIME ASSHOLE memecenter.com Mamelenler	1
+1203	binary classification	OH HONEY LOOK OUR DEMON BABY IS COMMITTING ITS FIRST MURDER HOW CUTE GET THE CAMERA	1
+710	binary classification	THAT MOMENT WHEN YOU GET THE 69TH LIKE imgip.com	1
+1162	binary classification	THAT LOOK YOU GIVE SOMEONE WHEN @B_Obama Memes THEY STEP ON THE BACK OF YOUR SHOE AND IT COMES OFF Mutha.........	1
+278	binary classification	I still don't understand how a man who's never held public office until being elected President is blamed for all of America's problems... By the people we've had in Congress since the 1970's.	0
+631	binary classification	That's a nice business you got there.  Be a shame if someone...  CLOSED IT	0
+529	binary classification	This is your child  This is your child on vaccines  Any Questions?	0
+1059	binary classification	DID YOU MAKE SURE TO TAKE TWO PICTURES SO YOU CAN GIVE ONE TO ME? quackieme.com	1
+938	binary classification	I HAVE BEEN ON A DIET FOR TWO WEEKS AND ALL I HAVE LOST IS 14 DAYS.	1
+895	binary classification	YOU SNOWFLAKES CAN'T KILL ME! I HAVE THICKER SKIN THAN YOU! imgflip.com	1
+932	binary classification	WHEN I TEXT YOU IT MEANS I MISS YOU. WHEN I DON'T TEXT YOU IT MEANS I'M WAITING FOR YOU TO MISS ME.	1
+1252	binary classification	WHEN I GROW UP I'M GOING TO KILL THE BATMAN made on imagur	1
+1139	binary classification	that moment you realize Memedroid your girlfriend wants to play darksouls with you willingly	1
+748	binary classification	AS LONG AS ITS EMPTY FunnyCatMemes.xyz I STAY HERE.	1
+846	binary classification	At first I thought it was the bacon.... .. but I didn't know until this day that it was the Pasta Primavera all along. imgflip.com	1
+430	binary classification	I chose who???	0
+834	binary classification	Girlfriend: He always ignores me when he plays that stupid video game. Guy: She doesn't understand that it's a multiplayer game Female Therapist: Why don't you pause it? BRISISICE	1
+405	binary classification	Trump Pence 2020 Keeping America Great! 	0
+307	binary classification	THE CHOKER  	0
+17	binary classification	UN  New York UN Office Recruits Paramilitary Troops for 'Disarmament' and Reintegration' of US Civilians  WELCOME TO AMERICA  	0
+1265	binary classification	BIG BANG THEORY MEMES ARE BAD AND YOU SHOULD FEEL BAD menegerleratur.net	1
+1247	binary classification	A group of 3 friends is always legendary	1
+868	binary classification	Happy Memedroid 4th of July	1
+1267	binary classification	CAT MEMES MEOW - MEME MACHINE	1
+444	binary classification	"Welcome back to another episode of ""Things l'd Rather Do Than Listen to Nancy Pelosi""  "	0
+464	binary classification	KNOW WHAT ELSE THEY DIDNT FIND IN WALLACES GARAGE?  A TROPHY  	0
+1238	binary classification	I'm not coming down until you get rid of that stupid doggy.	1
+1023	binary classification	They said I could become anything. Solbecame a Snowball! http://dudelol.com?p=49312 Dudelol.com	1
+533	binary classification	50,000 people die from influenza and most people don't get vaccinated.  A few cases of ebola, SARS, or corona virus show up and everyone loses their minds.  	0
+421	binary classification	WHAT THEY'RE THINKING  IS SHE MY WIFE OR MY SISTER?   I'LL HAVE TO ASK HILLARY HOW TO MAKE IT LOOK LIKE AN ACCIDENT?	0
+610	binary classification	IRAQ HAS BETTER ELECTION SECURITY THAN PENNSYLVANIA. 	0
+178	binary classification	PARENTS REFUSING NEWBORN VITAMIN K SHOTS  BECAUSE THEY'D PREFER BABY HAVE AN ALL NATURAL, ORGANIC INTRACRANIAL HEMORRHAGE	0
+944	binary classification	THEY SAID I FIGHT LIKE A GIRL I TOOK THAT AS A COMPLIMENT	1
+1172	binary classification	Ok two more then i really gotta go ineken Heineken	1
+1088	binary classification	TALK TO THE HANDS mematic.net	1
+1182	binary classification	This seat is Taken LIAM NEESON IS OVERBOOKED THEY PICKED THE WRONG PASSENGER	1
+1137	binary classification	I WANTED A LOT BUT I DID IT!	1
+1227	binary classification	I'M NOT SURE WHO LOVES CUCKOLDRY MORE: ME  OR THE NINE GUYS FUCKING MY WIFE!	1
+1073	binary classification	I WISH YOU DIED IN BATMAN BEGINS I WISH YOU DIED IN TITANIC...OH WAIT	1
+204	binary classification	How could you have married that man?  I was going to ask you the same question! 	0
+549	binary classification	"""Spreading the chemtrails is actually quite easy.""  ""Getting them right to the edge of the Earth without flying off into space is the difficult part.""  "	0
+541	binary classification	Yes, I'm homeopathic, why do you ask?  I'd like to see a real medical doctor instead if you don't mind.  	0
+271	binary classification	NANCY THINKS THIS IS MORBIDLY OBESE.  WHAT DO YOU THINK?	0
+934	binary classification	You just been... MINION MOONED! share and moon others	1
+210	binary classification	TRUMP SAID THEY ARE FIGHTING AN ANCIENT SEX TRAFFICKING RING AND NOT A SINGLE REPORTER ASKED FOR MORE INFORMATION. 	0
+1177	binary classification	CHUCK NORRIS NEVER COMPLETES CUSTODIAN INTERVIEW FORMS BECAUSE CHUCK NORRIS NEVER SUBMITS @exterro	1
+94	binary classification	ON TUESDAY, NOVEMBER 3, 2020, WE MAKE AMERICA GREAT AGAIN  BY VOTING THIS NIGHTMARE OUT OF OFFICE!  	0
+1127	binary classification	Kat Angus @katangus one taught me love  one taught me patience  and one taught me pain 3:54 PM - NOV 5  2018 15.3K 4 934 People are talking about this	1
+626	binary classification	FOX NEWS channel Oct 7, 1996 - Nov 4, 2020  	0
+181	binary classification	Its time to disband the federal goverment CHANGE MY MIND 	0
+324	binary classification	THIS is What Happens AFTER They Take Away ALL of Your Guns!	0
+903	binary classification	WHEN YOU REALIZE WONDER WOMAN IS ONLY IGI WONDERWOMANDATMAN COMIC XS IG WERDY.COMIC.MEMES 5 WEEKS AWAY! <3 - Joker	1
+142	binary classification	if the blitz happened in 2020...  i don't consent to this new normal  there are no bombs you've been brainwashed  i'm going outside its my right  they want us to stay here to control us  i'm leaving the lights on in my house and you cant stop me	0
+719	binary classification	It doesn't have to be like this Justin Selena Beliebers When it can also be like this Benebers Selenay (Justin Benes Justin has 2 hands	1
+1301	binary classification	X-MEN: FIRST CLASS DRINKING GAME TAKE A BIG SWIG EVERY TIME XAVIER DOES THIS... quickmeme.com	1
+712	binary classification	Mr. Bean's daughter: Expectation vs Reality HOUSE	1
+1041	binary classification	THE SPIDER ON MY BACK ONLY HAS SIX LEGS ..I AM LIVING A LIE	1
+381	binary classification	I endorse you, Joe  Hey! Thanks 0.J.  	0
+380	binary classification	DEMOCRATS THINK HATING THEIR OWN COUNTRY IS A GOOD CAMPAIGN STRATEGY.  	0
+789	binary classification	HMM WHAT IS THAT MAN? VIA 9GAG.COM DO YOU LIKE WHAT YOU SEE? Imgflip.com	1
+286	binary classification	WHAT DOES A GOVERNMENT DO ONCE IT HAS DISARMED ITS CITIZENS? WHATEVER IT WANTS.	0
+300	binary classification	WHEN A REPUBLICAN IS IN THE OVAL OFFICE THEY ALL WANT TO BE BOB WOODWARD  WHEN A DEMOCRAT IS IN THE OVAL OFFICE THEY ALL WANT TO BE MONICA LEWINSKY. 	0

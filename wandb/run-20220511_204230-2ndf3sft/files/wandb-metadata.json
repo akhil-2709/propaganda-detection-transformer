@@ -1,0 +1,17 @@
+{
+    "os": "Linux-5.4.188+-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-05-11T20:42:35.876885",
+    "startedAt": "2022-05-11T20:42:30.287636",
+    "docker": null,
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "cpu_count": 2,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "5a44061c15ba",
+    "username": "root",
+    "executable": "/usr/bin/python3"
+}

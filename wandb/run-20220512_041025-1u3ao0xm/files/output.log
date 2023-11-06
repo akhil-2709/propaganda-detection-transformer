@@ -1,0 +1,86 @@
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1580: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no true nor predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, "true nor predicted", "F-score is", len(true_sum))
+-----------------------------------
+Results:
+Scores for binary classification:
+F1 score: 0.0
+Accuracy Score: 1.0
+Scores for multilabel classification:
+F1 score: 0
+Exact matches: 0
+['0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+68
+['Loaded Language,Slogans', 'Whataboutism', 'Loaded Language,Name calling/Labeling,Smears,Slogans', 'Name calling/Labeling,Smears', 'Loaded Language,Smears', 'Loaded Language,Exaggeration/Minimisation', 'Name calling/Labeling', 'Loaded Language,Name calling/Labeling,Appeal to fear/prejudice,Exaggeration/Minimisation', 'Loaded Language,Doubt', 'Name calling/Labeling', 'Loaded Language', 'Name calling/Labeling', 'Loaded Language', "Loaded Language,Name calling/Labeling,Slogans,Misrepresentation of Someone's Position (Straw Man)", 'Glittering generalities (Virtue)', 'Loaded Language,Name calling/Labeling,Smears', 'clean', 'Loaded Language,Name calling/Labeling,Smears,Exaggeration/Minimisation,Glittering generalities (Virtue)', 'Loaded Language,Name calling/Labeling', 'clean', 'Name calling/Labeling,Smears,Doubt', 'Loaded Language', 'Loaded Language,Name calling/Labeling,Appeal to fear/prejudice,Exaggeration/Minimisation,Flag-waving', 'Appeal to fear/prejudice,Exaggeration/Minimisation,Slogans,Causal Oversimplification', 'clean', 'Loaded Language,Appeal to fear/prejudice,Exaggeration/Minimisation', 'Loaded Language', 'Loaded Language,Name calling/Labeling,Smears', 'Loaded Language,Smears', "Loaded Language,Name calling/Labeling,Misrepresentation of Someone's Position (Straw Man),Causal Oversimplification,Doubt", 'clean', 'Black-and-white Fallacy/Dictatorship', 'Loaded Language,Name calling/Labeling', 'Loaded Language,Name calling/Labeling,Appeal to fear/prejudice,Slogans', 'Flag-waving,Glittering generalities (Virtue)', 'Loaded Language,Smears', 'clean', 'Loaded Language', 'Loaded Language,Name calling/Labeling', 'Loaded Language,Smears', 'clean', 'Loaded Language,Name calling/Labeling,Slogans', 'clean', 'Whataboutism', 'Smears', 'Loaded Language,Name calling/Labeling,Smears', 'Loaded Language', 'Loaded Language,Smears', 'Loaded Language,Name calling/Labeling,Slogans,Doubt', 'Loaded Language,Name calling/Labeling,Repetition', 'Loaded Language,Name calling/Labeling,Flag-waving', 'Appeal to authority', 'clean', 'Doubt', 'Loaded Language,Name calling/Labeling,Causal Oversimplification,Glittering generalities (Virtue)', 'clean', 'Loaded Language,Smears', 'Loaded Language,Name calling/Labeling,Appeal to fear/prejudice,Appeal to authority', 'Loaded Language,Name calling/Labeling,Smears', 'Loaded Language', 'Smears,Appeal to fear/prejudice', 'clean', 'Doubt', 'Loaded Language,Name calling/Labeling', 'clean', 'Loaded Language', 'Name calling/Labeling', 'clean']
+68
+/usr/local/lib/python3.7/dist-packages/transformers/tokenization_utils_base.py:3516: FutureWarning:
+`prepare_seq2seq_batch` is deprecated and will be removed in version 5 of HuggingFace Transformers. Use the regular
+`__call__` method to prepare your inputs and the tokenizer under the `as_target_tokenizer` context manager to prepare
+your targets.
+Here is a short example:
+model_inputs = tokenizer(src_texts, ...)
+with tokenizer.as_target_tokenizer():
+    labels = tokenizer(tgt_texts, ...)
+model_inputs["labels"] = labels["input_ids"]
+See the documentation of your specific tokenizer for more details on the specific arguments to the tokenizer of choice.
+For a more complete example, see the implementation of `prepare_seq2seq_batch`.
+  warnings.warn(formatted_warning, FutureWarning)
+-----------------------------------
+Results:
+Scores for binary classification:
+F1 score: 0.9848484848484849
+Accuracy Score: 0.9850746268656716
+Scores for multilabel classification:
+F1 score: 0
+Exact matches: 0
+/usr/local/lib/python3.7/dist-packages/transformers/tokenization_utils_base.py:3516: FutureWarning:
+`prepare_seq2seq_batch` is deprecated and will be removed in version 5 of HuggingFace Transformers. Use the regular
+`__call__` method to prepare your inputs and the tokenizer under the `as_target_tokenizer` context manager to prepare
+your targets.
+Here is a short example:
+model_inputs = tokenizer(src_texts, ...)
+with tokenizer.as_target_tokenizer():
+    labels = tokenizer(tgt_texts, ...)
+model_inputs["labels"] = labels["input_ids"]
+See the documentation of your specific tokenizer for more details on the specific arguments to the tokenizer of choice.
+For a more complete example, see the implementation of `prepare_seq2seq_batch`.
+  warnings.warn(formatted_warning, FutureWarning)
+-----------------------------------
+Results:
+Scores for binary classification:
+F1 score: 0.9848484848484849
+Accuracy Score: 0.9850746268656716
+Scores for multilabel classification:
+F1 score: 0
+Exact matches: 0
+/usr/local/lib/python3.7/dist-packages/transformers/tokenization_utils_base.py:3516: FutureWarning:
+`prepare_seq2seq_batch` is deprecated and will be removed in version 5 of HuggingFace Transformers. Use the regular
+`__call__` method to prepare your inputs and the tokenizer under the `as_target_tokenizer` context manager to prepare
+your targets.
+Here is a short example:
+model_inputs = tokenizer(src_texts, ...)
+with tokenizer.as_target_tokenizer():
+    labels = tokenizer(tgt_texts, ...)
+model_inputs["labels"] = labels["input_ids"]
+See the documentation of your specific tokenizer for more details on the specific arguments to the tokenizer of choice.
+For a more complete example, see the implementation of `prepare_seq2seq_batch`.
+  warnings.warn(formatted_warning, FutureWarning)
+-----------------------------------
+Results:
+Scores for binary classification:
+F1 score: 0.9848484848484849
+Accuracy Score: 0.9850746268656716
+Scores for multilabel classification:
+F1 score: 0
+Exact matches: 0
+/usr/local/lib/python3.7/dist-packages/transformers/tokenization_utils_base.py:3516: FutureWarning:
+`prepare_seq2seq_batch` is deprecated and will be removed in version 5 of HuggingFace Transformers. Use the regular
+`__call__` method to prepare your inputs and the tokenizer under the `as_target_tokenizer` context manager to prepare
+your targets.
+Here is a short example:
+model_inputs = tokenizer(src_texts, ...)
+with tokenizer.as_target_tokenizer():
+    labels = tokenizer(tgt_texts, ...)
+model_inputs["labels"] = labels["input_ids"]
+See the documentation of your specific tokenizer for more details on the specific arguments to the tokenizer of choice.
+For a more complete example, see the implementation of `prepare_seq2seq_batch`.
+  warnings.warn(formatted_warning, FutureWarning)

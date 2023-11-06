@@ -1,0 +1,1 @@
+{"Training loss": 0.00036975537659600377, "lr": 0.001, "global_step": 870, "_timestamp": 1652328072, "_runtime": 1180, "_step": 26, "eval_loss": 0.4083352882991925, "train_loss": 2.8703832867904566e-05, "_wandb": {"runtime": 1728}}

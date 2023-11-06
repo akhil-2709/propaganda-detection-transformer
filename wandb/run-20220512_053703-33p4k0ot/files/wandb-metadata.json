@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.4.188+-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-05-12T05:37:09.056976",
+    "startedAt": "2022-05-12T05:37:03.727253",
+    "docker": null,
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "cpu_count": 2,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "T5Baseline.ipynb",
+    "colab": "https://colab.research.google.com/notebook#fileId=1ICgT2auvZK3AzaszPDo1WLGM8Aqr_vlY",
+    "host": "ca89563e3503",
+    "username": "root",
+    "executable": "/usr/bin/python3"
+}
